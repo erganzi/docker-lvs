@@ -3,6 +3,7 @@
 
 Run from Kubernetes
 
+```
 Demo1:
 ==============================================================================
 kind: Deployment
@@ -584,9 +585,11 @@ data:
         #}
 
     }
+```
 
 LVS Dockerfile
 ==============================================================================
+```
 FROM centos:6.6
 
 MAINTAINER ErganziWudi
@@ -597,4 +600,5 @@ RUN rm -rf /etc/keepalived/keepalived.conf
 EXPOSE 11234
 
 CMD ["/app/run.sh"]
+```
 
